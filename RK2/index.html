@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <title>РК2</title>
+    <style>
+      .house * > th, .house * > td {
+        border: 1px solid black;
+        padding: 1em;
+        text-align: center;
+      }
+
+      .house * > tr:nth-child(odd) > td {
+        background-color: lightgreen;
+      }
+
+      .house * > tr:nth-child(even) > td {
+        background-color: lightcoral;
+      }
+
+      .street > :nth-child(even) {
+        background-color: lightgreen;
+      }
+
+      .street > :nth-child(odd) {
+        background-color: lightcoral;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Таблица</h2>
+    <table style="width:100%" cellpadding="4" cellspacing="1" class="house">
+      <tr>
+        <th>Номер дома</th>
+        <th>Наличие лифта</th>
+        <th>Количество подъездов</th>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Есть</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>Есть</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>27А</td>
+        <td>Нет</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Есть</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Есть</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Есть</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Есть</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Есть</td>
+        <td>1</td>
+      </tr>
+    </table>
+    <h2>Маркированный список</h2>
+    <ul class="street">
+      <li>Краноспресненская наб.</li>
+      <li>1-ая Ватутинская</li>
+      <li>Ленинградское ш.</li>
+      <li>Летниковская</li>
+      <li>Духовской пер.</li>
+      <li>Серебряническая наб.</li>
+    </ul>
+  </body>
+</html>
